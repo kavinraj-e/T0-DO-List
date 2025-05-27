@@ -7,7 +7,7 @@ const app = express();
 
 try {
     
-mongoose.connect("mongodb://localhost:27017/todoApp");
+mongoose.connect("mongodb+srv://kavinraje2022cse:admin123@cluster0.ssphf4t.mongodb.net/totodao?retryWrites=true&w=majority&appName=Cluster0");
 console.log("Connected to MongoDB");
     
 } catch (error) {
